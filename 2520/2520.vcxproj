@@ -13,9 +13,6 @@
   <ItemGroup>
     <ClCompile Include="1.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="myTime.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{719829A4-AE51-4AAB-8850-67AC1B412865}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -56,6 +53,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
